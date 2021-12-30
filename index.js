@@ -52,3 +52,19 @@ console.log("Reversed Array",reversedArr);
 
 const strOutput = reversedArr.join("*");
 console.log("Output", strOutput);
+
+
+
+const reversedCourse = course.split("").reverse().join("");
+console.log(reversedCourse);
+
+
+
+
+
+// Replace  : takes two params , first is what is required to be replaced, second is with what you want to replace
+
+const temp = "John is a good guy. John is working as a developer";
+console.log(temp);
+console.log(temp.replace("John","Doe"));    // it will replace only the first occurence
+console.log(temp.replaceAll("John","Doe")); // it will replace all the occurences
