@@ -62,9 +62,18 @@ console.log(reversedCourse);
 
 
 
-// Replace  : takes two params , first is what is required to be replaced, second is with what you want to replace
 
+// Replace  : takes two params , first is what is required to be replaced, second is with what you want to replace
 const temp = "John is a good guy. John is working as a developer";
 console.log(temp);
 console.log(temp.replace("John","Doe"));    // it will replace only the first occurence
 console.log(temp.replaceAll("John","Doe")); // it will replace all the occurences
+
+
+
+
+
+// Trim : this function removes the unnecessary spaces present in the string at the start and at the end
+const str = "                Elevation          Academy           "
+console.log(str);
+console.log(str.trim());
